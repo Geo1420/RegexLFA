@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/tema1style.css" />
+    <title>Regex LFA</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a class="materie" href="tema1.html"> L.F.A.</a>
+        <ul class="navbar-menu">
+          <li class="tema1-1">
+            <a href="tema1.html" class="navbar-link">Tema1.1</a>
+          </li>
+          <li class="tema1-2">
+            <a href="tema2.html" class="navbar-link">Tema1.2</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Input section-->
+    <div class="tema1-container">
+      <h2 class="titlutema">Tema 1.1</h2>
+      <div class="input-fields">
+        <p class="pattern-text">Pattern</p>
+        <input type="text" id="pattern" placeholder="Enter pattern" required />
+        <p class="string-text">String</p>
+        <input type="text" id="string" placeholder="Enter string" required />
+      </div>
+      <button type="button" class="verify-button">Verify</button>
+      <!--Warning mess-->
+      <div class="warning-mess">
+        <p class="match">Is a match</p>
+        <p class="no-match">No match</p>
+        <p class="err"></p>
+      </div>
+    </div>
+    <script src="/Scripts/tema1.js"></script>
+  </body>
+</html>
